@@ -224,42 +224,6 @@ The exact communication format depends on the firmware implementation.
 
 ---
 
-# 📁 Project Structure
-
-The repository is organized so that the embedded firmware, Python dashboard, simulation files, and documentation are kept separately.
-
-```text
-EV-ADAS-Dashboard-STM32/
-│
-├── STM32_Firmware/
-│   ├── Inc/
-│   ├── Src/
-│   └── README.md
-│
-├── Python_Dashboard/
-│   ├── dashboard.py
-│   ├── requirements.txt
-│   └── README.md
-│
-├── PICSimLab/
-│   ├── simulation/
-│   └── README.md
-│
-├── Documentation/
-│   ├── Project_Report.pdf
-│   ├── System_Architecture.png
-│   └── Flowchart.png
-│
-├── Images/
-│   ├── Hardware_Setup.jpg
-│   ├── PICSimLab.jpg
-│   └── Python_Dashboard.jpg
-│
-├── .gitignore
-└── README.md
-```
-
----
 
 # ▶️ How to Run the Project
 
